@@ -1,0 +1,556 @@
+<!doctype html>
+<html lang="th">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#071426">
+    <meta name="description" content="A Gothic Fantasy journey into the mysterious world of Vanitas no Carte.">
+    <title>Vanitas no Carte — Under the Blue Moon</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Noto+Serif+Thai:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#mainNavbar" data-bs-smooth-scroll="true" tabindex="0">
+
+    <!-- NAVIGATION -->
+    <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-dark fixed-top site-navbar">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-3" href="#home" aria-label="Vanitas no Carte home">
+                <img class="brand-logo" src="" alt="Vanitas no Carte logo"
+                    onerror="this.style.display='none'">
+                <span class="brand-wordmark">Vanitas <i>no</i> Carte</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
+                aria-controls="navbarMenu" aria-expanded="false" aria-label="เปิดเมนู">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+                    <li class="nav-item"><a class="nav-link" href="#story">Story</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#themes">The World</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#characters">Character</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#volumes">Information</a></li>
+                    <li class="nav-item ms-lg-2"><a class="nav-link nav-cta" href="#volumes">Explore volumes
+                            <span>↗</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- HERO -->
+        <header id="home" class="hero-section d-flex align-items-center">
+            <div class="hero-stars" aria-hidden="true"></div>
+            <div class="container hero-content position-relative">
+                <div class="row">
+                    <div class="col-lg-9 col-xl-8">
+                        <p class="eyebrow"><span class="eyebrow-line"></span> A FANTASY JOURNEY</p>
+                        <h1 class="hero-title">Vanitas <em>no</em><br><span>Carte</span></h1>
+                        <p class="hero-subtitle">A mysterious tale of vampires, curses,<br class="d-none d-md-block">
+                            and destiny beneath the blue moon.</p>
+                        <a class="btn btn-gold mt-3" href="#story">Enter the world <span aria-hidden="true">↘</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-bottom container-fluid">
+                <span>PARIS · THE VICTORIAN ERA</span>
+                <span class="hero-bottom-center">✦</span>
+                <span>01 — THE BEGINNING</span>
+            </div>
+            <a href="#story" class="scroll-cue" aria-label="Scroll to story"><span></span> SCROLL TO DISCOVER</a>
+        </header>
+
+        <!-- STORY -->
+
+        <!-- STORY -->
+        <section id="story" class="section-pad story-section">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+
+                    <!-- ส่วนหัวข้อ -->
+                    <div class="col-lg-5">
+                        <p class="eyebrow">01 / THE WORLD</p>
+
+                        <h2 class="display-title">
+                            A World<br>
+                            <em>Beneath the Moon</em>
+                        </h2>
+
+                        <div class="ornament" aria-hidden="true">
+                            ✦ <span>────────</span> ✦
+                        </div>
+
+                        <!-- Bootstrap Carousel แบบ Indicators -->
+                        <div id="cityCarousel" class="carousel slide world-image-frame mt-4" data-bs-ride="carousel">
+
+                            <!-- Indicators -->
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#cityCarousel" data-bs-slide-to="0" class="active"
+                                    aria-current="true" aria-label="Slide 1"></button>
+
+                                <button type="button" data-bs-target="#cityCarousel" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+
+                                <button type="button" data-bs-target="#cityCarousel" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+
+                                <button type="button" data-bs-target="#cityCarousel" data-bs-slide-to="3"
+                                    aria-label="Slide 4"></button>
+
+                                <button type="button" data-bs-target="#cityCarousel" data-bs-slide-to="4"
+                                    aria-label="Slide 5"></button>
+
+                                <button type="button" data-bs-target="#cityCarousel" data-bs-slide-to="5"
+                                    aria-label="Slide 6"></button>
+                            </div>
+
+                            <!-- รูปภาพทั้ง 6 รูป -->
+                            <div class="carousel-inner">
+
+                                <div class="carousel-item active">
+                                    <img src="images/city1.jpg" class="d-block w-100" alt="Paris at night - 1">
+                                </div>
+
+                                <div class="carousel-item">
+                                    <img src="images/city2.jpg" class="d-block w-100" alt="Paris at night - 2">
+                                </div>
+
+                                <div class="carousel-item">
+                                    <img src="images/city3.jpg" class="d-block w-100" alt="Paris at night - 3">
+                                </div>
+
+                                <div class="carousel-item">
+                                    <img src="images/city4.jpg" class="d-block w-100" alt="Paris at night - 4">
+                                </div>
+
+                                <div class="carousel-item">
+                                    <img src="images/city5.jpg" class="d-block w-100" alt="Paris at night - 5">
+                                </div>
+
+                                <div class="carousel-item">
+                                    <img src="images/city6.jpg" class="d-block w-100" alt="Paris at night - 6">
+                                </div>
+
+                            </div>
+
+                            <!-- ปุ่มย้อนกลับ -->
+                            <button class="carousel-control-prev" type="button" data-bs-target="#cityCarousel"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+
+                            <!-- ปุ่มถัดไป -->
+                            <button class="carousel-control-next" type="button" data-bs-target="#cityCarousel"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+
+                            <!-- ข้อความใต้ภาพ -->
+                            <span class="image-caption">
+                                A CITY OF SECRETS · PARIS, AFTER DARK
+                            </span>
+
+                        </div>
+                    </div>
+
+                    <!-- ส่วนเนื้อเรื่อง -->
+                    <div class="col-lg-6 offset-lg-1 story-copy">
+                        <p class="story-kicker">บันทึกแวมไพร์วานิทัส</p>
+
+                        <p>
+                            เรื่องราวเกิดขึ้นในโลกยุควิกตอเรีย
+                            เมื่อแวมไพร์หนุ่มนามว่าโนเอเดินทางมายังกรุงปารีส
+                            เพื่อตามหา “ตำราวานิทัส”
+                        </p>
+
+                        <p>
+                            ระหว่างการเดินทาง เขาได้พบกับวานิทัส
+                            มนุษย์ผู้ครอบครองตำราลึกลับที่เกี่ยวข้องกับคำสาป
+                            ของเหล่าแวมไพร์
+                        </p>
+
+                        <blockquote class="story-quote">
+                            “A world of vampires, forgotten names,
+                            and secrets hidden beneath a blue moon.”
+                        </blockquote>
+
+                        <a href="#characters" class="text-link">
+                            Meet the characters <span>⟶</span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    
+<!-- STORY -->
+<section id="story" class="section-pad story-section">
+    <div class="container">
+        <div class="row g-5 align-items-center">
+
+            <!-- รูปภาพ OST -->
+            <div class="col-lg-5">
+                <p class="eyebrow">01 / THE WORLD</p>
+
+                <h2 class="display-title">
+                    A World<br>
+                    <em>Beneath the Moon</em>
+                </h2>
+
+                <div class="ornament" aria-hidden="true">
+                    ✦ <span>────────</span> ✦
+                </div>
+
+                <div class="world-image-frame mt-4">
+                    <img src="images/The_Case_Study_of_Vanitas_OST.webp"
+                         alt="The Case Study of Vanitas Original Soundtrack"
+                         class="img-fluid"
+                         style="width: 100%; aspect-ratio: 4 / 3;
+                                object-fit: cover;"
+                         loading="lazy">
+
+                    <span class="image-caption">
+                        THE CASE STUDY OF VANITAS · ORIGINAL SOUNDTRACK
+                    </span>
+                </div>
+            </div>
+
+            <!-- เนื้อเรื่อง -->
+            <div class="col-lg-6 offset-lg-1 story-copy">
+                <p class="story-kicker">บันทึกแวมไพร์วานิทัส</p>
+
+                <p>
+                    การ์ตูนแนวแอ็กชัน คอเมดี้ และแฟนตาซีย้อนยุค
+                    ซึ่งมีฉากหลังเป็นโลกยุควิกตอเรีย ในประเทศฝรั่งเศส
+                    เรื่องราวเริ่มต้นเมื่อแวมไพร์หนุ่มนาม “โนเอ”
+                    เดินทางมายังปารีสเพื่อตามหา “ตำราวานิทัส”
+                    ตามคำสั่งของอาจารย์
+                </p>
+
+                <p>
+                    ระหว่างการเดินทาง เขาได้พบกับ “วานิทัส”
+                    มนุษย์ผู้ครอบครองตำราลึกลับที่ใช้ช่วยเหลือแวมไพร์จากคำสาป
+                    ทั้งสองจึงเข้ามาเกี่ยวข้องกันในเรื่องราวที่เต็มไปด้วยปริศนา
+                </p>
+
+                <blockquote class="story-quote">
+                    “A world of vampires, forgotten names,
+                    and secrets hidden beneath a blue moon.”
+                </blockquote>
+
+                <a href="#characters" class="text-link">
+                    Meet the characters <span>⟶</span>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>
+```
+        </div>
+        </div>
+        </section>
+
+        <!-- THEMES -->
+        <section id="themes" class="section-pad themes-section">
+            <div class="container">
+                <div class="section-heading text-center mx-auto">
+                    <p class="eyebrow justify-content-center">02 / THE Identity</p>
+                    <h2 class="display-title">Beyond the Myth</h2>
+                    <p>Four ideas at the heart of this mysterious world.</p>
+                </div>
+                <div class="row g-3 g-lg-4 mt-4">
+                    <div class="col-6 col-lg-3">
+                        <article class="theme-card h-100">
+                            <span class="theme-number">01</span>
+                            <div class="theme-symbol">☾</div>
+                            <h3>Vampire</h3>
+                            <p>แวมไพร์ สิ่งมีชีวิตที่มีตัวตนคล้ายคลึงกับนุษย์
+                                พวกเขามีชีวิตภายปะปนกับเหล่ามนุษย์
+                                จุดแตกต่างมีเพียงพวกเขาเลือกที่จะดื่มเลือดของมนุษย์เพื่อมีชีวิต 
+                            
+                            </p>
+                        </article>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <article class="theme-card h-100">
+                            <span class="theme-number">02</span>
+                            <div class="theme-symbol">✧</div>
+                            <h3>Curse</h3>
+                            <p>คำสาปที่คอยกัดกินสติสัมปชัญญะของเหล่าแวมไพร์
+                                ที่ถูกแย่งชิงนามที่แท้จริงไป ทำให้พวกเขาคลุ้มคลั่งและเสียชีวิตในท้ายที่สุด
+                            </p>
+                        </article>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <article class="theme-card h-100">
+                            <span class="theme-number">03</span>
+                            <div class="theme-symbol">◈</div>
+                            <h3>The true name</h3>
+                            <p>นามที่แท้จริงของเหล่าแวมไพร์ เป็นชื่อที่สำคัญของเหล่าแวมไพร์
+                                หากถูกแย่งชิงไปจะทำให้เกิดคำสาป
+                            </p>
+                        </article>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <article class="theme-card h-100">
+                            <span class="theme-number">04</span>
+                            <div class="theme-symbol">❦</div>
+                            <h3>Chalaton</h3>
+                            <p>กลุ่มบบุคคลปริศนาที่ขโมยชื่อของเหล่าแวมไพร์ไป</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- BOOK -->
+        <section id="book" class="section-pad book-section">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+
+                    <!-- รูปภาพหนังสือ -->
+                    <div class="col-md-5 col-lg-4">
+                        <div class="book-art-wrap">
+                            <div class="book-art">
+                                <img src="images/book.jpg" alt="The Book of Vanitas" style="width: 100%; height: 100%;
+                                    object-fit: contain;">
+                            </div>
+
+                            <span class="book-art-caption">
+                                A GRIMOIRE SHROUDED IN MYSTERY
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- เนื้อหา -->
+                    <div class="col-md-7 col-lg-7 offset-lg-1">
+                        <p class="eyebrow">03 / THE BOOK</p>
+
+                        <h2 class="display-title">
+                            The Book<br>
+                            <em>of Vanitas</em>
+                        </h2>
+
+                        <p class="lead copy-lead">
+                            A grimoire shrouded in mystery.
+                        </p>
+
+                        <p>
+                            “ตำราวานิทัส” คือหนังสือที่ถูกเขียนขึ้นมาโดยแวมไพร์จันทราสีน้ำเงิน
+                            ภายในหนังสือนั้นเป็นปริศนา แต่มันมีพลังพิเศษที่สามารถควบคุมโลกทั้งใบ
+                            แก้สมการโลก และมีความสามารถในการแก้คำสาปที่แวมไพร์พบเจอ
+                            หนังสือเล่มนี้คือตัวฉนวนความขัดแย้งภายในเรื่องราวนี้"
+                        </p>
+
+                        <button class="btn btn-outline-gold mt-2" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#bookReveal" aria-expanded="false" aria-controls="bookReveal">
+                            Reveal the mystery
+                            <span class="ms-2">＋</span>
+                        </button>
+
+                        <div class="collapse" id="bookReveal">
+                            <div class="book-reveal mt-3">
+                                “I’ll never forgive Luna. 
+                                I’ll erase every last fragment of the Vampire of the Blue Moon’s existence. 
+                                I’ll consign them to oblivion. That… is my ‘revenge.’
+                                Not every secret should remain buried beneath the blue moon.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        ```
+        <!-- CHARACTERS -->
+        <section id="characters" class="section-pad character-section">
+            <div class="container">
+                <div class="section-heading text-center mx-auto">
+                    <p class="eyebrow justify-content-center">04 / CHARACTER</p>
+                    <h2 class="display-title">Those Who Walk<br><em>Beneath the Moon</em></h2>
+                    <p>Meet the two companions at the beginning of this journey.</p>
+                </div>
+
+                <article class="row g-0 character-panel mt-5 align-items-stretch">
+                    <div class="col-md-5 character-portrait">
+                        <img src="images/Vanitas_fullbody.webp" alt="ภาพตัวละครวานิทัส" loading="lazy"
+                            onerror="this.parentElement.classList.add('image-missing'); this.remove()">
+                        <span class="portrait-index">CHARACTER 01</span>
+                    </div>
+                    <div class="col-md-7 character-description">
+                        <p class="eyebrow">THE HUMAN WITH THE GRIMOIRE</p>
+                        <h3>Vanitas <span>วานิทัส</span></h3>
+                        <div class="ornament" aria-hidden="true">✦ <span>──────</span> ✦</div>
+                        <p>ชายหนุ่มผู้สืบทอดตำรา “วานิทัส” และเป็นทายาทของแวมไพร์สีน้ำเงิน
+                            แม้จะเกี่ยวข้องกับตำนานของแวมไพร์ แต่เขากลับเป็นมนุษย์ธรรมดาคนหนึ่ง
+                            เขาเรียกตัวเองว่าแพทย์ผู้เชี่ยวชาญด้านแวมไพร์ และพร้อมใช้วิธีการหลากหลายเพื่อบรรลุเป้าหมาย
+                            แม้จะทำให้คนรอบข้างต้องเข้าไปพัวพันกับสถานการณ์วุ่นวายก็ตาม</p>
+                        <span class="character-tag">THE MYSTERIOUS DOCTOR</span>
+                    </div>
+                </article>
+
+                <article class="row g-0 character-panel character-panel-reverse mt-4 align-items-stretch">
+                    <div class="col-md-5 character-portrait">
+                        <img src="images/noe_fullbody.webp" alt="ภาพตัวละครโนเอ" loading="lazy"
+                            onerror="this.parentElement.classList.add('image-missing'); this.remove()">
+                        <span class="portrait-index">CHARACTER 02</span>
+                    </div>
+                    <div class="col-md-7 character-description">
+                        <p class="eyebrow">THE VAMPIRE FROM THE COUNTRY</p>
+                        <h3>Noé <span>โนเอ</span></h3>
+                        <div class="ornament" aria-hidden="true">✦ <span>──────</span> ✦</div>
+                        <p>แวมไพร์หนุ่มผู้เดินทางจากชนบทมายังกรุงปารีสเพื่อตามหา “ตำราแห่งวานิทัส”
+                            เขามีทักษะและสัญชาตญาณในการต่อสู้ที่ยอดเยี่ยม
+                            อีกทั้งยังเป็นคนที่ทำตามความรู้สึกของตนเองอย่างตรงไปตรงมา</p>
+                        <span class="character-tag">THE CURIOUS ARCHIVIST</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- VOLUMES -->
+        <section id="volumes" class="section-pad volumes-section">
+            <div class="container">
+                <div class="section-heading text-center mx-auto">
+                    <p class="eyebrow justify-content-center">05 / INFORMATION</p>
+                    <h2 class="display-title">Volumes <em>of Mystery</em></h2>
+                    <p>Explore the covers and discover the world one volume at a time.</p>
+                </div>
+                <div class="row g-3 g-md-4 mt-4">
+                    <!-- Volume cards: update image extensions in src if your files use extensions -->
+                    <div class="col-6 col-md-4 col-lg-3"><button class="volume-card w-100 h-100" data-volume="1"
+                            data-bs-toggle="modal" data-bs-target="#volumeModal"><span class="volume-cover"><img
+                                    src="images/cover.1.webp" alt="ปกเล่ม 1" loading="lazy"
+                                    onerror="this.parentElement.classList.add('image-missing'); this.remove()"></span><span
+                                class="volume-meta"><small>THE COLLECTION</small><strong>VOLUME 01</strong><span
+                                    class="volume-open">VIEW DETAILS ↗</span></span></button></div>
+                    <div class="col-6 col-md-4 col-lg-3"><button class="volume-card w-100 h-100" data-volume="2"
+                            data-bs-toggle="modal" data-bs-target="#volumeModal"><span class="volume-cover"><img
+                                    src="images/cover.2.webp" alt="ปกเล่ม 2" loading="lazy"
+                                    onerror="this.parentElement.classList.add('image-missing'); this.remove()"></span><span
+                                class="volume-meta"><small>THE COLLECTION</small><strong>VOLUME 02</strong><span
+                                    class="volume-open">VIEW DETAILS ↗</span></span></button></div>
+                    <div class="col-6 col-md-4 col-lg-3"><button class="volume-card w-100 h-100" data-volume="3"
+                            data-bs-toggle="modal" data-bs-target="#volumeModal"><span class="volume-cover"><img
+                                    src="images/cover.3.webp" alt="ปกเล่ม 3" loading="lazy"
+                                    onerror="this.parentElement.classList.add('image-missing'); this.remove()"></span><span
+                                class="volume-meta"><small>THE COLLECTION</small><strong>VOLUME 03</strong><span
+                                    class="volume-open">VIEW DETAILS ↗</span></span></button></div>
+                    <div class="col-6 col-md-4 col-lg-3"><button class="volume-card w-100 h-100" data-volume="4"
+                            data-bs-toggle="modal" data-bs-target="#volumeModal"><span class="volume-cover"><img
+                                    src="images/cover.4.webp" alt="ปกเล่ม 4" loading="lazy"
+                                    onerror="this.parentElement.classList.add('image-missing'); this.remove()"></span><span
+                                class="volume-meta"><small>THE COLLECTION</small><strong>VOLUME 04</strong><span
+                                    class="volume-open">VIEW DETAILS ↗</span></span></button></div>
+                    <div class="col-6 col-md-4 col-lg-3"><button class="volume-card w-100 h-100" data-volume="5"
+                            data-bs-toggle="modal" data-bs-target="#volumeModal"><span class="volume-cover"><img
+                                    src="images/cover.5.webp" alt="ปกเล่ม 5" loading="lazy"
+                                    onerror="this.parentElement.classList.add('image-missing'); this.remove()"></span><span
+                                class="volume-meta"><small>THE COLLECTION</small><strong>VOLUME 05</strong><span
+                                    class="volume-open">VIEW DETAILS ↗</span></span></button></div>
+                    <div class="col-6 col-md-4 col-lg-3"><button class="volume-card w-100 h-100" data-volume="6"
+                            data-bs-toggle="modal" data-bs-target="#volumeModal"><span class="volume-cover"><img
+                                    src="images/cover.6.webp" alt="ปกเล่ม 6" loading="lazy"
+                                    onerror="this.parentElement.classList.add('image-missing'); this.remove()"></span><span
+                                class="volume-meta"><small>THE COLLECTION</small><strong>VOLUME 06</strong><span
+                                    class="volume-open">VIEW DETAILS ↗</span></span></button></div>
+                    <div class="col-6 col-md-4 col-lg-3"><button class="volume-card w-100 h-100" data-volume="7"
+                            data-bs-toggle="modal" data-bs-target="#volumeModal"><span class="volume-cover"><img
+                                    src="images/cover.7.webp" alt="ปกเล่ม 7" loading="lazy"
+                                    onerror="this.parentElement.classList.add('image-missing'); this.remove()"></span><span
+                                class="volume-meta"><small>THE COLLECTION</small><strong>VOLUME 07</strong><span
+                                    class="volume-open">VIEW DETAILS ↗</span></span></button></div>
+                    <div class="col-6 col-md-4 col-lg-3"><button class="volume-card w-100 h-100" data-volume="8"
+                            data-bs-toggle="modal" data-bs-target="#volumeModal"><span class="volume-cover"><img
+                                    src="images/cover.8.webp" alt="ปกเล่ม 8" loading="lazy"
+                                    onerror="this.parentElement.classList.add('image-missing'); this.remove()"></span><span
+                                class="volume-meta"><small>THE COLLECTION</small><strong>VOLUME 08</strong><span
+                                    class="volume-open">VIEW DETAILS ↗</span></span></button></div>
+                    <div class="col-6 col-md-4 col-lg-3"><button class="volume-card w-100 h-100" data-volume="9"
+                            data-bs-toggle="modal" data-bs-target="#volumeModal"><span class="volume-cover"><img
+                                    src="images/cover.9.webp" alt="ปกเล่ม 9" loading="lazy"
+                                    onerror="this.parentElement.classList.add('image-missing'); this.remove()"></span><span
+                                class="volume-meta"><small>THE COLLECTION</small><strong>VOLUME 09</strong><span
+                                    class="volume-open">VIEW DETAILS ↗</span></span></button></div>
+                    <div class="col-6 col-md-4 col-lg-3"><button class="volume-card w-100 h-100" data-volume="10"
+                            data-bs-toggle="modal" data-bs-target="#volumeModal"><span class="volume-cover"><img
+                                    src="images/cover.10.webp" alt="ปกเล่ม 10" loading="lazy"
+                                    onerror="this.parentElement.classList.add('image-missing'); this.remove()"></span><span
+                                class="volume-meta"><small>THE COLLECTION</small><strong>VOLUME 10</strong><span
+                                    class="volume-open">VIEW DETAILS ↗</span></span></button></div>
+                    <div class="col-6 col-md-4 col-lg-3"><button class="volume-card w-100 h-100" data-volume="11"
+                            data-bs-toggle="modal" data-bs-target="#volumeModal"><span class="volume-cover"><img
+                                    src="images/cover.11.webp" alt="ปกเล่ม 11" loading="lazy"
+                                    onerror="this.parentElement.classList.add('image-missing'); this.remove()"></span><span
+                                class="volume-meta"><small>THE COLLECTION</small><strong>VOLUME 11</strong><span
+                                    class="volume-open">VIEW DETAILS ↗</span></span></button></div>
+                </div>
+                <p class="volume-note text-center mt-4">เลือกปกเพื่อเปิดหน้าต่างข้อมูลของเล่มนั้น ๆ ·
+                    คำอธิบายยังไม่ได้ถูกอัปเดต</p>
+            </div>
+        </section>
+
+        <!-- BLUE MOON -->
+        <section class="mystery-section d-flex align-items-center">
+            <div class="mystery-moon" aria-hidden="true"></div>
+            <div class="container position-relative mystery-content">
+                <p class="eyebrow">06 / THE MYSTERY</p>
+                <h2 class="display-title">What Lies Beneath<br><em>the Blue Moon?</em></h2>
+                <p>Beneath the moonlight,<br>every name hides a secret.</p>
+            </div>
+        </section>
+
+        <!-- ENDING -->
+        <section class="ending-section text-center section-pad">
+            <div class="container">
+                <p class="eyebrow justify-content-center">THE END IS ONLY THE BEGINNING</p>
+                <h2 class="display-title">Vanitas <em>no</em> Carte</h2>
+                <p>ไปตามหาความจริงของเรื่องราวไปพร้อม ๆ กัน…</p>
+                <a class="btn btn-gold mt-3" href="#home">Back to beginning ↑</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- VOLUME DETAILS MODAL -->
+    <div class="modal fade" id="volumeModal" tabindex="-1" aria-labelledby="volumeModalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content volume-modal-content">
+                <div class="modal-header">
+                    <p class="eyebrow mb-0">A CHAPTER OF THE JOURNEY</p>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="ปิด"></button>
+                </div>
+                <div class="modal-body">
+                    <span class="modal-moon">☾</span>
+                    <h2 class="display-title" id="volumeModalTitle">VOLUME 01</h2>
+                    <p id="volumeModalText">เลือกชมปกหนังสือเล่มนี้ในคอลเลกชัน Vanitas no Carte</p>
+                    <small>หมายเหตุ: เอกสารต้นฉบับไม่ได้ระบุเรื่องย่อแยกตามแต่ละเล่ม</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+            <span>VANITAS NO CARTE</span><span class="footer-star">✦</span><span>UNDER THE BLUE MOON</span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
